@@ -6,9 +6,9 @@
 
 ### 效果图
 
-![整体效果图1](https://github.com/kevinlq/LQVideoPlay/tree/master/LQVideoPlay/screen/1.png)
-![整体效果图2](https://github.com/kevinlq/LQVideoPlay/tree/master/LQVideoPlay/screen/2.png)
-![整体效果图3](https://github.com/kevinlq/LQVideoPlay/tree/master/LQVideoPlay/screen/3.png)
+![整体效果图1](https://raw.githubusercontent.com/kevinlq/LQVideoPlay/master/screen/1.png)
+![整体效果图2](https://raw.githubusercontent.com/kevinlq/LQVideoPlay/master/screen/2.png)
+![整体效果图3](https://raw.githubusercontent.com/kevinlq/LQVideoPlay/master/screen/3.png)
 
 ### 环境介绍
 windows 7 64位
