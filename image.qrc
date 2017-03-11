@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/home/play.png</file>
+        <file>Images/qss/style.css</file>
+        <file>Images/playMenu/next.png</file>
+        <file>Images/playMenu/next_hover.png</file>
+        <file>Images/playMenu/no_voice.png</file>
+        <file>Images/playMenu/pause.png</file>
+        <file>Images/playMenu/pause_hover.png</file>
+        <file>Images/playMenu/play.png</file>
+        <file>Images/playMenu/play_hover.png</file>
+        <file>Images/playMenu/prev.png</file>
+        <file>Images/playMenu/prev_hover.png</file>
+        <file>Images/playMenu/stop.png</file>
+        <file>Images/playMenu/stop_hover.png</file>
+        <file>Images/playMenu/voice.png</file>
+        <file>Images/titleMenu/quit.png</file>
+        <file>Images/titleMenu/min.png</file>
+        <file>Images/titleMenu/min_hover.png</file>
+        <file>Images/titleMenu/min_pressed.png</file>
+        <file>Images/titleMenu/max.png</file>
+        <file>Images/titleMenu/max_restore.png</file>
+        <file>Images/playMenu/open.png</file>
+        <file>Images/playMenu/open_hover.png</file>
+        <file>Images/titleMenu/login.png</file>
+    </qresource>
+</RCC>

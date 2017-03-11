@@ -1,0 +1,122 @@
+QWidget#widget_title,QWidget#widget_status{
+	background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #2E4C74,stop:1 #090F18);
+}
+QWidget#widget_progress{
+	background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #244F88,stop:1 #090F18);
+}
+
+QLabel#white_label{
+	color:#FFFFFF;
+}
+
+/*QSlider right*/
+QSlider::groove:horizontal,QSlider::add-page:horizontal{
+	height:6px;
+	border-radius:3px;
+	background:#7D7DEE;
+}
+/*QSlider left*/
+QSlider::sub-page:horizontal{
+	height:6px;
+	border-radius:3px;
+	background:#0B77E1;
+}
+
+QSlider::handle:horizontal{
+	width:10px;
+	margin-top:-2px;
+	margin-bottom:-2px;
+	border-radius:4px;
+	background:qradialgradient(spread:pad,cx:0.5,cy:0.5,radius:0.5,fx:0.5,fy:0.5,stop:0.6 #353535,stop:0.8 #C0DEF6);
+}
+
+/*listview background*/
+QListView{
+	border:1px solid #2B2B2B;
+	selection-background-color:#F2F9FF;
+	selection-color:#386487;
+	alternate-background-color:rgba(218,239,255,200);
+	gridline-color:#C0DCF2;
+	background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #000000,stop:1 #0D0D27);
+}
+
+QListView::item:selected{
+	color:#386487;
+	background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #DEF0FE,stop:1 #C0DEF6);
+}
+
+QListView::item:hover{
+	color:#386487;
+	background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #F2F9FF,stop:1 #DAEFFF);
+}
+QListView::item{
+	padding:5px;
+	margin:0px;
+}
+
+/*title menu*/
+QPushButton#btn_login{
+	border-image :url(:/Images/titleMenu/login.png);
+}
+
+QPushButton#btn_min{
+	border-image :url(:/Images/titleMenu/min.png);
+}
+QPushButton#btn_min:hover{
+	border-image :url(:/Images/titleMenu/min_hover.png);
+}
+QPushButton#btn_min:pressed{
+	border-image :url(:/Images/titleMenu/min_pressed.png);
+}
+QPushButton#btn_max{
+	border-image :url(:/Images/titleMenu/max.png);
+}
+QPushButton#btn_close{
+	border-image :url(:/Images/titleMenu/quit.png);
+}
+
+/*status play*/
+QPushButton#btn_stop{
+	border-image :url(:/Images/playMenu/stop.png);
+}
+QPushButton#btn_stop:hover{
+	border-image :url(:/Images/playMenu/stop_hover.png);
+}
+
+QPushButton#btn_pre{
+	border-image :url(:/Images/playMenu/prev.png);
+}
+QPushButton#btn_pre:hover{
+	border-image :url(:/Images/playMenu/prev_hover.png);
+}
+
+QPushButton#btn_play{
+	border-image :url(:/Images/playMenu/play.png);
+}
+QPushButton#btn_play:hover{
+	border-image :url(:/Images/playMenu/play_hover.png);
+}
+
+QPushButton#btn_next{
+	border-image :url(:/Images/playMenu/next.png);
+}
+QPushButton#btn_next:hover{
+	border-image :url(:/Images/playMenu/next_hover.png);
+}
+
+QPushButton#btn_voice{
+	border-image :url(:/Images/playMenu/voice.png);
+}
+
+QPushButton#btn_open{
+	border-image :url(:/Images/playMenu/open.png);
+}
+QPushButton#btn_open:hover{
+	border-image :url(:/Images/playMenu/open_hover.png);
+	border-style:none;
+	border:1px solid #C0DCF2;
+	color:#386487;
+	padding:4px;
+	min-height:14px;
+	border-radius:4px;
+}
